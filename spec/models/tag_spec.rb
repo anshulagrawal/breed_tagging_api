@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Tag, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context "RELATIONSHIP WITH BREED >> " do
+    it "Removes associations with breed upon deletion" do
+    end
+  end
 end
